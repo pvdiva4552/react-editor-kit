@@ -44,6 +44,7 @@ export const FontSelect: FunctionComponent<FontSelectProps> = (
       value={current}
       className="rek-font-select"
       {...rest}
+      editable
     />
   );
 };
