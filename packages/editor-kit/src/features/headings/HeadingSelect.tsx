@@ -52,6 +52,7 @@ export const HeadingSelect: FunctionComponent<HeadingSelectProps> = (
         onFocus={editor.markSelection}
         value={selected.text}
         {...rest}
+        editable
       />
     </Fragment>
   );
